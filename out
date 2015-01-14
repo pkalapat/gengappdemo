@@ -1,166 +1,3 @@
-2015-01-05T16:15:23.981457+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/abstract_controller/helpers.rb:111:in `helper'
-2015-01-05T16:15:23.981441+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
-2015-01-05T16:15:23.981444+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:225:in `require_dependency'
-2015-01-05T16:15:23.981468+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
-2015-01-05T16:15:23.981489+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
-2015-01-05T16:15:23.981502+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:238:in `block in constantize'
-2015-01-05T16:15:23.981491+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-05T16:15:23.981499+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:238:in `const_get'
-2015-01-05T16:15:23.981460+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/action_controller/railties/helpers.rb:17:in `inherited'
-2015-01-05T16:15:23.981520+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:236:in `each'
-2015-01-05T16:15:23.981465+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-05T16:15:23.981497+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:180:in `const_missing'
-2015-01-05T16:15:23.981463+00:00 app[web.1]: 	from /app/app/controllers/application_controller.rb:1:in `<top (required)>'
-2015-01-05T16:15:23.981496+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:480:in `load_missing_constant'
-2015-01-05T16:15:23.981531+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-05T16:15:23.981543+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-05T16:15:23.981526+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:236:in `constantize'
-2015-01-05T16:15:23.981537+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:480:in `load_missing_constant'
-2015-01-05T16:15:23.981529+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/devise-3.4.0/app/controllers/devise_controller.rb:2:in `<top (required)>'
-2015-01-05T16:15:23.981542+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/devise-3.4.0/app/controllers/devise/confirmations_controller.rb:1:in `<top (required)>'
-2015-01-05T16:15:23.981528+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/core_ext/string/inflections.rb:66:in `constantize'
-2015-01-05T16:15:23.981539+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:180:in `const_missing'
-2015-01-05T16:15:23.981536+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
-2015-01-05T16:15:23.981532+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
-2015-01-05T16:15:23.981574+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
-2015-01-05T16:15:23.981522+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:236:in `inject'
-2015-01-05T16:15:23.981535+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-05T16:15:23.981533+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
-2015-01-05T16:15:23.981583+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:225:in `require_dependency'
-2015-01-05T16:15:23.981577+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-05T16:15:23.981582+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:307:in `depend_on'
-2015-01-05T16:15:23.981581+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
-2015-01-05T16:15:23.981576+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
-2015-01-05T16:15:23.981598+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/application/finisher.rb:58:in `each'
-2015-01-05T16:15:23.981585+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:468:in `block (2 levels) in eager_load!'
-2015-01-05T16:15:23.981593+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:465:in `eager_load!'
-2015-01-05T16:15:23.981597+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:346:in `eager_load!'
-2015-01-05T16:15:23.981592+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:465:in `each'
-2015-01-05T16:15:23.981589+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:467:in `each'
-2015-01-05T16:15:23.981590+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:467:in `block in eager_load!'
-2015-01-05T16:15:23.981600+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/application/finisher.rb:58:in `block in <module:Finisher>'
-2015-01-05T16:15:23.981622+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
-2015-01-05T16:15:23.981603+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:30:in `instance_exec'
-2015-01-05T16:15:23.981606+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:55:in `block in run_initializers'
-2015-01-05T16:15:23.981617+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
-2015-01-05T16:15:23.981624+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `each'
-2015-01-05T16:15:23.981605+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:30:in `run'
-2015-01-05T16:15:23.981610+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
-2015-01-05T16:15:23.981618+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
-2015-01-05T16:15:23.981643+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `call'
-2015-01-05T16:15:23.981647+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
-2015-01-05T16:15:23.981645+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
-2015-01-05T16:15:23.981652+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:54:in `run_initializers'
-2015-01-05T16:15:23.981686+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-05T16:15:23.981650+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
-2015-01-05T16:15:23.981654+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/application.rb:300:in `initialize!'
-2015-01-05T16:15:23.981688+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
-2015-01-05T16:15:23.981655+00:00 app[web.1]: 	from /app/config/environment.rb:5:in `<top (required)>'
-2015-01-05T16:15:23.981689+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
-2015-01-05T16:15:23.981694+00:00 app[web.1]: 	from /app/config.ru:3:in `block in <main>'
-2015-01-05T16:15:23.981693+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-05T16:15:23.981695+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
-2015-01-05T16:15:23.981701+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
-2015-01-05T16:15:23.981703+00:00 app[web.1]: 	from /app/config.ru:in `new'
-2015-01-05T16:15:23.981705+00:00 app[web.1]: 	from /app/config.ru:in `<main>'
-2015-01-05T16:15:23.981706+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `eval'
-2015-01-05T16:15:23.981710+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `new_from_string'
-2015-01-05T16:15:23.981719+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:314:in `wrapped_app'
-2015-01-05T16:15:23.981722+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:250:in `start'
-2015-01-05T16:15:23.981711+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:40:in `parse_file'
-2015-01-05T16:15:23.981713+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:277:in `build_app_and_options_from_config'
-2015-01-05T16:15:23.981736+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:40:in `run_command!'
-2015-01-05T16:15:23.981716+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:199:in `app'
-2015-01-05T16:15:23.981718+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/server.rb:50:in `app'
-2015-01-05T16:15:23.981725+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:81:in `block in server'
-2015-01-05T16:15:23.981729+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `tap'
-2015-01-05T16:15:23.981733+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `server'
-2015-01-05T16:15:23.981739+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands.rb:17:in `<top (required)>'
-2015-01-05T16:15:23.981742+00:00 app[web.1]: 	from bin/rails:8:in `require'
-2015-01-05T16:15:23.981744+00:00 app[web.1]: 	from bin/rails:8:in `<main>'
-2015-01-05T16:15:23.981724+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/server.rb:69:in `start'
-2015-01-05T16:15:24.850042+00:00 heroku[web.1]: Process exited with status 1
-2015-01-05T16:15:24.866542+00:00 heroku[web.1]: State changed from starting to crashed
-2015-01-06T20:37:32.384850+00:00 heroku[web.1]: State changed from crashed to starting
-2015-01-06T20:37:36.672167+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 29754 -e production`
-2015-01-06T20:37:40.210934+00:00 app[web.1]: => Booting WEBrick
-2015-01-06T20:37:40.210952+00:00 app[web.1]: => Rails 4.1.6 application starting in production on http://0.0.0.0:29754
-2015-01-06T20:37:40.211074+00:00 app[web.1]: 	     <div class ="alert alert-danger alert-dismissable">
-2015-01-06T20:37:40.211083+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:9: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
-2015-01-06T20:37:40.211078+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
-2015-01-06T20:37:40.210957+00:00 app[web.1]: => Ctrl-C to shutdown server
-2015-01-06T20:37:40.211076+00:00 app[web.1]: 	                       ^
-2015-01-06T20:37:40.211091+00:00 app[web.1]: 	       <button type="button" class="close" data-dismiss=...
-2015-01-06T20:37:40.211094+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
-2015-01-06T20:37:40.210958+00:00 app[web.1]: Exiting
-2015-01-06T20:37:40.211072+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_end
-2015-01-06T20:37:40.211079+00:00 app[web.1]: 	     <div class ="alert alert-danger alert-dismissable">
-2015-01-06T20:37:40.211092+00:00 app[web.1]: 	                           ^
-2015-01-06T20:37:40.211081+00:00 app[web.1]: 	                                          ^
-2015-01-06T20:37:40.211085+00:00 app[web.1]: 	     <div class ="alert alert-danger alert-dismissable">
-2015-01-06T20:37:40.211099+00:00 app[web.1]: ...ass="close" data-dismiss="alert" aria-hidden="true">&times;<...
-2015-01-06T20:37:40.211100+00:00 app[web.1]: ...                               ^
-2015-01-06T20:37:40.211104+00:00 app[web.1]: ...                               ^
-2015-01-06T20:37:40.211087+00:00 app[web.1]: 	                                                       ^
-2015-01-06T20:37:40.211095+00:00 app[web.1]: ...tton type="button" class="close" data-dismiss="alert" aria-h...
-2015-01-06T20:37:40.211102+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected keyword_true, expecting keyword_end
-2015-01-06T20:37:40.211107+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected end-of-input, expecting keyword_end
-2015-01-06T20:37:40.211106+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: unterminated string meets end of file
-2015-01-06T20:37:40.211096+00:00 app[web.1]: ...                               ^
-2015-01-06T20:37:40.210956+00:00 app[web.1]: => Notice: server is listening on all interfaces (0.0.0.0). Consider using 127.0.0.1 (--binding option)
-2015-01-06T20:37:40.211112+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
-2015-01-06T20:37:40.211117+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
-2015-01-06T20:37:40.211118+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:307:in `depend_on'
-2015-01-06T20:37:40.211098+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
-2015-01-06T20:37:40.210954+00:00 app[web.1]: => Run `rails server -h` for more startup options
-2015-01-06T20:37:40.211122+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/abstract_controller/helpers.rb:147:in `map!'
-2015-01-06T20:37:40.211115+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-06T20:37:40.211126+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/abstract_controller/helpers.rb:111:in `helper'
-2015-01-06T20:37:40.211120+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:225:in `require_dependency'
-2015-01-06T20:37:40.211125+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/action_controller/metal/helpers.rb:93:in `modules_for_helpers'
-2015-01-06T20:37:40.211129+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/action_controller/railties/helpers.rb:17:in `inherited'
-2015-01-06T20:37:40.211131+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-06T20:37:40.211124+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/abstract_controller/helpers.rb:147:in `modules_for_helpers'
-2015-01-06T20:37:40.211130+00:00 app[web.1]: 	from /app/app/controllers/application_controller.rb:1:in `<top (required)>'
-2015-01-06T20:37:40.211134+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
-2015-01-06T20:37:40.211069+00:00 app[web.1]: /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require': /app/app/helpers/devise_helper.rb:6: syntax error, unexpected tSTRING_BEG, expecting keyword_end (SyntaxError)
-2015-01-06T20:37:40.211103+00:00 app[web.1]: ...smiss="alert" aria-hidden="true">&times;</button>
-2015-01-06T20:37:40.211132+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
-2015-01-06T20:37:40.211138+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:180:in `const_missing'
-2015-01-06T20:37:40.211114+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
-2015-01-06T20:37:40.211136+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
-2015-01-06T20:37:40.211143+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:238:in `block in constantize'
-2015-01-06T20:37:40.211089+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
-2015-01-06T20:37:40.211137+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:480:in `load_missing_constant'
-2015-01-06T20:37:40.211172+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:236:in `each'
-2015-01-06T20:37:40.211192+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
-2015-01-06T20:37:40.211182+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-06T20:37:40.211121+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/abstract_controller/helpers.rb:152:in `block in modules_for_helpers'
-2015-01-06T20:37:40.211194+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-06T20:37:40.211190+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/devise-3.4.0/app/controllers/devise/confirmations_controller.rb:1:in `<top (required)>'
-2015-01-06T20:37:40.211180+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
-2015-01-06T20:37:40.211181+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
-2015-01-06T20:37:40.211135+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-06T20:37:40.211139+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:238:in `const_get'
-2015-01-06T20:37:40.211176+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/core_ext/string/inflections.rb:66:in `constantize'
-2015-01-06T20:37:40.211204+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:465:in `each'
-2015-01-06T20:37:40.211197+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:307:in `depend_on'
-2015-01-06T20:37:40.211203+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:467:in `block in eager_load!'
-2015-01-06T20:37:40.211184+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
-2015-01-06T20:37:40.211253+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
-2015-01-06T20:37:40.211196+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
-2015-01-06T20:37:40.211193+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
-2015-01-06T20:37:40.211201+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:467:in `each'
-2015-01-06T20:37:40.211174+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:236:in `constantize'
-2015-01-06T20:37:40.211188+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:180:in `const_missing'
-2015-01-06T20:37:40.211232+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
-2015-01-06T20:37:40.211205+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:465:in `eager_load!'
-2015-01-06T20:37:40.211210+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:30:in `instance_exec'
-2015-01-06T20:37:40.211230+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
-2015-01-06T20:37:40.211225+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
-2015-01-06T20:37:40.211275+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `eval'
-2015-01-06T20:37:40.211200+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:468:in `block (2 levels) in eager_load!'
-2015-01-06T20:37:40.211179+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
 2015-01-06T20:37:40.211280+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:277:in `build_app_and_options_from_config'
 2015-01-06T20:37:40.211239+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
 2015-01-06T20:37:40.211173+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:236:in `inject'
@@ -296,8 +133,7 @@
 2015-01-07T19:27:15.584776+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
 2015-01-07T19:27:15.584782+00:00 app[web.1]: 	from /app/config.ru:in `<main>'
 2015-01-07T19:27:15.584825+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:277:in `build_app_and_options_from_config'
-2015-01-07T19:27:15.584784+0
-0:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `eval'
+2015-01-07T19:27:15.584784+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `eval'
 2015-01-07T19:27:15.584837+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/server.rb:69:in `start'
 2015-01-07T19:27:15.584673+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/devise-3.4.0/app/controllers/devise_controller.rb:2:in `<top (required)>'
 2015-01-07T19:27:15.584836+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:250:in `start'
@@ -414,8 +250,7 @@
 2015-01-08T09:59:58.036289+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
 2015-01-08T09:59:58.036291+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `each'
 2015-01-08T09:59:58.036292+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `call'
-2015-01-08T09:59:58.036299+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.
-6/lib/rails/initializable.rb:54:in `run_initializers'
+2015-01-08T09:59:58.036299+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:54:in `run_initializers'
 2015-01-08T09:59:58.036342+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `tap'
 2015-01-08T09:59:58.036322+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `eval'
 2015-01-08T09:59:58.036271+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:30:in `instance_exec'
@@ -460,7 +295,8 @@
 2015-01-08T18:08:12.077016+00:00 app[web.1]: Exiting
 2015-01-08T18:08:12.077038+00:00 app[web.1]: 	     <div class ="alert alert-danger alert-dismissable">
 2015-01-08T18:08:12.077051+00:00 app[web.1]: 	                                                       ^
-2015-01-08T18:08:12.077053+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+2015-01-08T18:08:12.077053+00:00 app[web.1]: /app/app/helpers/devise_helper
+.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
 2015-01-08T18:08:12.077042+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
 2015-01-08T18:08:12.077044+00:00 app[web.1]: 	     <div class ="alert alert-danger alert-dismissable">
 2015-01-08T18:08:12.077036+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_end
@@ -532,8 +368,7 @@
 2015-01-08T18:08:12.077180+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:225:in `require_dependency'
 2015-01-08T18:08:12.077209+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:30:in `run'
 2015-01-08T18:08:12.077242+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
-2015-01-08T18:08:12.077184+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gem
-s/railties-4.1.6/lib/rails/engine.rb:468:in `block (2 levels) in eager_load!'
+2015-01-08T18:08:12.077184+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:468:in `block (2 levels) in eager_load!'
 2015-01-08T18:08:12.077213+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:55:in `block in run_initializers'
 2015-01-08T18:08:12.077225+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
 2015-01-08T18:08:12.077232+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `each'
@@ -577,7 +412,8 @@ s/railties-4.1.6/lib/rails/engine.rb:468:in `block (2 levels) in eager_load!'
 2015-01-08T18:08:12.077324+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands.rb:17:in `<top (required)>'
 2015-01-08T18:08:12.077322+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:40:in `run_command!'
 2015-01-08T18:08:12.077285+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `new_from_string'
-2015-01-08T18:08:12.077318+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `server'
+2015-0
+1-08T18:08:12.077318+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `server'
 2015-01-08T18:08:12.988478+00:00 heroku[web.1]: State changed from starting to crashed
 2015-01-08T18:08:12.978853+00:00 heroku[web.1]: Process exited with status 1
 2015-01-09T10:41:06.274303+00:00 heroku[web.1]: State changed from crashed to starting
@@ -652,8 +488,7 @@ s/railties-4.1.6/lib/rails/engine.rb:468:in `block (2 levels) in eager_load!'
 2015-01-09T10:41:11.699445+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
 2015-01-09T10:41:11.699384+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:238:in `block in constantize'
 2015-01-09T10:41:11.699360+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:225:in `require_dependency'
-2015-01-09T10:41:11.699441+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_suppor
-t/dependencies.rb:247:in `require'
+2015-01-09T10:41:11.699441+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
 2015-01-09T10:41:11.699464+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:55:in `block in run_initializers'
 2015-01-09T10:41:11.699471+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
 2015-01-09T10:41:11.699476+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
@@ -694,7 +529,8 @@ t/dependencies.rb:247:in `require'
 2015-01-09T10:41:11.699544+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `tap'
 2015-01-09T10:41:11.699549+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands.rb:17:in `<top (required)>'
 2015-01-09T10:41:11.699479+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
-2015-01-09T10:41:11.699545+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `server'
+2015-01-09T10:41:11.699545+00:00 app[web.1]: 	from /app/
+vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `server'
 2015-01-09T10:41:11.699502+00:00 app[web.1]: 	from /app/config.ru:in `<main>'
 2015-01-09T10:41:11.699496+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
 2015-01-09T10:41:11.699516+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:314:in `wrapped_app'
@@ -772,8 +608,7 @@ t/dependencies.rb:247:in `require'
 2015-01-12T03:15:43.280149+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:465:in `eager_load!'
 2015-01-12T03:15:43.280159+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:30:in `instance_exec'
 2015-01-12T03:15:43.280116+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
-2015-01-12T03:15:43.
-280145+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:465:in `each'
+2015-01-12T03:15:43.280145+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:465:in `each'
 2015-01-12T03:15:43.280072+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/core_ext/string/inflections.rb:66:in `constantize'
 2015-01-12T03:15:43.280082+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:480:in `load_missing_constant'
 2015-01-12T03:15:43.280085+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:180:in `const_missing'
@@ -813,7 +648,8 @@ t/dependencies.rb:247:in `require'
 2015-01-12T03:15:43.280234+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
 2015-01-12T03:15:43.280255+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:40:in `parse_file'
 2015-01-12T03:15:43.280257+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:277:in `build_app_and_options_from_config'
-2015-01-12T03:15:43.280258+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:199:in `app'
+2015-01-12T03:15:43.280258+00:
+00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:199:in `app'
 2015-01-12T03:15:43.280292+00:00 app[web.1]: 	from bin/rails:8:in `require'
 2015-01-12T03:15:43.280246+00:00 app[web.1]: 	from /app/config.ru:in `<main>'
 2015-01-12T03:15:43.280271+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:81:in `block in server'
@@ -893,8 +729,7 @@ t/dependencies.rb:247:in `require'
 2015-01-13T18:41:31.519572+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:307:in `depend_on'
 2015-01-13T18:41:31.519511+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/action_controller/railties/helpers.rb:17:in `inherited'
 2015-01-13T18:41:31.519503+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/abstract_controller/helpers.rb:147:in `map!'
-2015-01-13T18:41:31.519526+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/m
-ethods.rb:238:in `block in constantize'
+2015-01-13T18:41:31.519526+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:238:in `block in constantize'
 2015-01-13T18:41:31.519561+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/devise-3.4.0/app/controllers/devise/confirmations_controller.rb:1:in `<top (required)>'
 2015-01-13T18:41:31.519502+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/abstract_controller/helpers.rb:152:in `block in modules_for_helpers'
 2015-01-13T18:41:31.519580+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:467:in `block in eager_load!'
@@ -932,7 +767,8 @@ ethods.rb:238:in `block in constantize'
 2015-01-13T18:41:31.519635+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:54:in `run_initializers'
 2015-01-13T18:41:31.519639+00:00 app[web.1]: 	from /app/config/environment.rb:5:in `<top (required)>'
 2015-01-13T18:41:31.519648+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-13T18:41:31.519631+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+2015-01-13T18:41:31.519631+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in 
+`each_strongly_connected_component'
 2015-01-13T18:41:31.519628+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `call'
 2015-01-13T18:41:31.519559+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:480:in `load_missing_constant'
 2015-01-13T18:41:31.519652+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
@@ -984,8 +820,7 @@ ethods.rb:238:in `block in constantize'
 2015-01-14T09:21:14.908699+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=2aec3604-6675-483f-89d6-20eb3c7347b7 fwd="128.107.239.233" dyno= connect= service= status=503 bytes=
 2015-01-14T09:21:15.391749+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=1051f120-ece7-4b9b-8d55-dd9762d35448 fwd="128.107.239.233" dyno= connect= service= status=503 bytes=
 2015-01-14T09:32:31.822301+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=bd23562f-c470-4ab0-96fc-ce4520912faa fwd="128.107.239.233" dyno= connect= service= status=503 bytes=
-2015-01-14T09:32:32.289550+00:00 heroku[router]: at=error code=H10 desc="App crash
-ed" method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=c51d59fe-9025-482e-96d0-d6153e87ef61 fwd="128.107.239.233" dyno= connect= service= status=503 bytes=
+2015-01-14T09:32:32.289550+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=c51d59fe-9025-482e-96d0-d6153e87ef61 fwd="128.107.239.233" dyno= connect= service= status=503 bytes=
 2015-01-14T09:35:01.286462+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=c2bd14c6-c7fb-4c5b-8436-bbdcfc159edf fwd="128.107.239.233" dyno= connect= service= status=503 bytes=
 2015-01-14T09:35:01.770980+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=29fa917b-45d1-4d2c-aa89-82059b64f021 fwd="128.107.239.233" dyno= connect= service= status=503 bytes=
 2015-01-14T16:06:46.566568+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=497e3e5d-26e9-486b-9dd8-3172c6fa0352 fwd="128.107.239.234" dyno= connect= service= status=503 bytes=
@@ -1023,7 +858,8 @@ ed" method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_i
 2015-01-14T16:19:46.811491+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:9: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
 2015-01-14T16:19:46.811501+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
 2015-01-14T16:19:46.811516+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: unterminated string meets end of file
-2015-01-14T16:19:46.811511+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected keyword_true, expecting keyword_end
+2015-01-14T16:19:46.811511+00:00 app[web.1]: /app/app/hel
+pers/devise_helper.rb:10: syntax error, unexpected keyword_true, expecting keyword_end
 2015-01-14T16:19:46.811522+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
 2015-01-14T16:19:46.811528+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
 2015-01-14T16:19:46.811510+00:00 app[web.1]: ...                               ^
@@ -1092,8 +928,7 @@ ed" method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_i
 2015-01-14T16:19:46.811705+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `eval'
 2015-01-14T16:19:46.811638+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/application/finisher.rb:58:in `block in <module:Finisher>'
 2015-01-14T16:19:46.811691+00:00 app[web.1]: 	from /app/config.ru:3:in `block in <main>'
-2015-01-14T16:19:46.811703+00:00 app[web.1]: 	from /app/config.ru:in `<
-main>'
+2015-01-14T16:19:46.811703+00:00 app[web.1]: 	from /app/config.ru:in `<main>'
 2015-01-14T16:19:46.811640+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:30:in `instance_exec'
 2015-01-14T16:19:46.811654+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
 2015-01-14T16:19:46.811662+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `each'
@@ -1141,7 +976,8 @@ main>'
 2015-01-14T16:19:58.947748+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
 2015-01-14T16:19:58.947740+00:00 app[web.1]: 	                                          ^
 2015-01-14T16:19:58.947751+00:00 app[web.1]: ...                               ^
-2015-01-14T16:19:58.947752+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+2015-01-14T16:19:58.947752+00:00 app[web.1]:
+ /app/app/helpers/devise_helper.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
 2015-01-14T16:19:58.947756+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected keyword_true, expecting keyword_end
 2015-01-14T16:19:58.947757+00:00 app[web.1]: ...smiss="alert" aria-hidden="true">&times;</button>
 2015-01-14T16:19:58.947696+00:00 app[web.1]: Exiting
@@ -1211,8 +1047,7 @@ main>'
 2015-01-14T16:19:58.947920+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
 2015-01-14T16:19:58.947981+00:00 app[web.1]: 	from /app/config.ru:in `<main>'
 2015-01-14T16:19:58.947906+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:55:in `block in run_initializers'
-2015-01-14T16:19:58.947857+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_suppor
-t/dependencies.rb:232:in `load_dependency'
+2015-01-14T16:19:58.947857+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
 2015-01-14T16:19:58.947989+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:277:in `build_app_and_options_from_config'
 2015-01-14T16:19:58.947990+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:199:in `app'
 2015-01-14T16:19:58.948005+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:81:in `block in server'
@@ -1255,7 +1090,8 @@ t/dependencies.rb:232:in `load_dependency'
 2015-01-14T16:22:57.921688+00:00 heroku[run.4483]: Process exited with status 0
 2015-01-14T16:22:57.935611+00:00 heroku[run.4483]: State changed from up to complete
 2015-01-14T16:24:18.532547+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=13e6e3af-f367-4051-8795-163eb804689c fwd="128.107.239.234" dyno= connect= service= status=503 bytes=
-2015-01-14T16:24:19.004802+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=e103ba42-1550-4f16-b1c2-40cf5ccc5953 fwd="128.107.239.233" dyno= connect= service= status=503 bytes=
+2015-01-14T16:24:19.004802+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favico
+n.ico" host=gengappdemo-2014.herokuapp.com request_id=e103ba42-1550-4f16-b1c2-40cf5ccc5953 fwd="128.107.239.233" dyno= connect= service= status=503 bytes=
 2015-01-14T16:24:38.018362+00:00 heroku[web.1]: State changed from crashed to starting
 2015-01-14T16:24:41.265779+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 15578 -e production`
 2015-01-14T16:24:44.336642+00:00 app[web.1]: => Booting WEBrick
@@ -1330,8 +1166,7 @@ t/dependencies.rb:232:in `load_dependency'
 2015-01-14T16:24:44.336907+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
 2015-01-14T16:24:44.336920+00:00 app[web.1]: 	from /app/config/environment.rb:5:in `<top (required)>'
 2015-01-14T16:24:44.336974+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:40:in `run_command!'
-2015-01-14T16:24:44.336876+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gem
-s/railties-4.1.6/lib/rails/application/finisher.rb:58:in `each'
+2015-01-14T16:24:44.336876+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/application/finisher.rb:58:in `each'
 2015-01-14T16:24:44.336925+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
 2015-01-14T16:24:44.336936+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
 2015-01-14T16:24:44.336946+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `eval'
@@ -1372,7 +1207,8 @@ s/railties-4.1.6/lib/rails/application/finisher.rb:58:in `each'
 2015-01-14T16:24:44.336941+00:00 app[web.1]: 	from /app/config.ru:in `new'
 2015-01-14T16:24:44.336928+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
 2015-01-14T16:24:44.336929+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
-2015-01-14T16:24:44.336761+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
+2015-01-14T16:24:44.336761+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/active
+support-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
 2015-01-14T16:24:44.336763+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
 2015-01-14T16:24:44.336766+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
 2015-01-14T16:24:44.336865+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:467:in `each'
@@ -1447,8 +1283,7 @@ s/railties-4.1.6/lib/rails/application/finisher.rb:58:in `each'
 2015-01-14T16:25:44.970627+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
 2015-01-14T16:25:44.970630+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
 2015-01-14T16:25:44.970677+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
-2015-01-14T16:25:44.970737+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/
-gems/activesupport-4.1.6/lib/active_support/dependencies.rb:180:in `const_missing'
+2015-01-14T16:25:44.970737+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:180:in `const_missing'
 2015-01-14T16:25:44.970708+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:480:in `load_missing_constant'
 2015-01-14T16:25:44.970772+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/devise-3.4.0/app/controllers/devise/confirmations_controller.rb:1:in `<top (required)>'
 2015-01-14T16:25:44.970796+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
@@ -1489,7 +1324,8 @@ gems/activesupport-4.1.6/lib/active_support/dependencies.rb:180:in `const_missin
 2015-01-14T16:25:44.971522+00:00 app[web.1]: 	from /app/config.ru:3:in `block in <main>'
 2015-01-14T16:25:44.971551+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
 2015-01-14T16:25:44.971602+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
-2015-01-14T16:25:44.971673+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `eval'
+2015-01-14T16:25:44.971673+00:00 
+app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `eval'
 2015-01-14T16:25:44.971757+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:277:in `build_app_and_options_from_config'
 2015-01-14T16:25:44.971620+00:00 app[web.1]: 	from /app/config.ru:in `new'
 2015-01-14T16:25:44.971710+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `new_from_string'
@@ -1510,3 +1346,167 @@ gems/activesupport-4.1.6/lib/active_support/dependencies.rb:180:in `const_missin
 2015-01-14T16:25:46.016824+00:00 heroku[web.1]: State changed from starting to crashed
 2015-01-14T16:27:44.566768+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=f502daa3-cfca-43e7-a375-b72a021dd28b fwd="128.107.239.233" dyno= connect= service= status=503 bytes=
 2015-01-14T16:27:46.301859+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=6e1f101a-5c2e-477c-a51d-06df70457ae9 fwd="128.107.239.233" dyno= connect= service= status=503 bytes=
+2015-01-14T16:40:21.766865+00:00 heroku[web.1]: State changed from crashed to starting
+2015-01-14T16:40:25.632721+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 39451 -e production`
+2015-01-14T16:40:29.235935+00:00 app[web.1]: => Booting WEBrick
+2015-01-14T16:40:29.235998+00:00 app[web.1]: Exiting
+2015-01-14T16:40:29.236189+00:00 app[web.1]: /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require': /app/app/helpers/devise_helper.rb:6: syntax error, unexpected tSTRING_BEG, expecting keyword_end (SyntaxError)
+2015-01-14T16:40:29.235954+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2015-01-14T16:40:29.236221+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+2015-01-14T16:40:29.236226+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:9: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+2015-01-14T16:40:29.235952+00:00 app[web.1]: => Rails 4.1.6 application starting in production on http://0.0.0.0:39451
+2015-01-14T16:40:29.236225+00:00 app[web.1]: 	                       ^
+2015-01-14T16:40:29.236239+00:00 app[web.1]: 	                           ^
+2015-01-14T16:40:29.236233+00:00 app[web.1]: 	     <div class ="alert alert-danger alert-dismissable">
+2015-01-14T16:40:29.236238+00:00 app[web.1]: 	       <button type="button" class="close" data-dismiss=...
+2015-01-14T16:40:29.236241+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+2015-01-14T16:40:29.235956+00:00 app[web.1]: => Notice: server is listening on all interfaces (0.0.0.0). Consider using 127.0.0.1 (--binding option)
+2015-01-14T16:40:29.235958+00:00 app[web.1]: => Ctrl-C to shutdown server
+2015-01-14T16:40:29.236236+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+2015-01-14T16:40:29.236223+00:00 app[web.1]: 	     <div class ="alert alert-danger alert-dismissable">
+2015-01-14T16:40:29.236229+00:00 app[web.1]: 	                                          ^
+2015-01-14T16:40:29.236245+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+2015-01-14T16:40:29.236242+00:00 app[web.1]: ...tton type="button" class="close" data-dismiss="alert" aria-h...
+2015-01-14T16:40:29.236244+00:00 app[web.1]: ...                               ^
+2015-01-14T16:40:29.236248+00:00 app[web.1]: ...                               ^
+2015-01-14T16:40:29.236249+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected keyword_true, expecting keyword_end
+2015-01-14T16:40:29.236251+00:00 app[web.1]: ...smiss="alert" aria-hidden="true">&times;</button>
+2015-01-14T16:40:29.236254+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: unterminated string meets end of file
+2015-01-14T16:40:29.236231+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:9: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+2015-01-14T16:40:29.236228+00:00 app[web.1]: 	     <div class ="alert alert-danger alert-dismissable">
+2015-01-14T16:40:29.236246+00:00 app[web.1]: ...ass="close" data-dismiss="alert" aria-hidden="true">&times;<...
+2015-01-14T16:40:29.236294+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
+2015-01-14T16:40:29.236271+00:00 app[web.1]: /app/app/helpers/devise_helper.rb:10: syntax error, unexpected end-of-input, expecting keyword_end
+2015-01-14T16:40:29.236234+00:00 app[web.1]: 	                                                       ^
+2015-01-14T16:40:29.236353+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
+2015-01-14T16:40:29.236407+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:225:in `require_dependency'
+2015-01-14T16:40:29.236371+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
+2015-01-14T16:40:29.236465+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/abstract_controller/helpers.rb:147:in `map!'
+2015-01-14T16:40:29.236252+00:00 app[web.1]: ...                               ^
+2015-01-14T16:40:29.236389+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:307:in `depend_on'
+2015-01-14T16:40:29.236333+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
+2015-01-14T16:40:29.236502+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/action_controller/metal/helpers.rb:93:in `modules_for_helpers'
+2015-01-14T16:40:29.236520+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/abstract_controller/helpers.rb:111:in `helper'
+2015-01-14T16:40:29.236570+00:00 app[web.1]: 	from /app/app/controllers/application_controller.rb:1:in `<top (required)>'
+2015-01-14T16:40:29.236588+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
+2015-01-14T16:40:29.236551+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/action_controller/railties/helpers.rb:17:in `inherited'
+2015-01-14T16:40:29.236677+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
+2015-01-14T16:40:29.236696+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:480:in `load_missing_constant'
+2015-01-14T16:40:29.236642+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
+2015-01-14T16:40:29.236484+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/abstract_controller/helpers.rb:147:in `modules_for_helpers'
+2015-01-14T16:40:29.236606+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
+2015-01-14T16:40:29.236436+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/actionpack-4.1.6/lib/abstract_controller/helpers.rb:152:in `block in modules_for_helpers'
+2015-01-14T16:40:29.237015+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
+2015-01-14T16:40:29.236798+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:236:in `each'
+2015-01-14T16:40:29.236714+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:180:in `const_missing'
+2015-01-14T16:40:29.236839+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:236:in `constantize'
+2015-01-14T16:40:29.236732+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:238:in `const_get'
+2015-01-14T16:40:29.236750+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:238:in `block in constantize'
+2015-01-14T16:40:29.237052+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:180:in `const_missing'
+2015-01-14T16:40:29.237188+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:307:in `depend_on'
+2015-01-14T16:40:29.236917+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
+2015-01-14T16:40:29.236857+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/core_ext/string/inflections.rb:66:in `constantize'
+2015-01-14T16:40:29.236624+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
+2015-01-14T16:40:29.236820+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/inflector/methods.rb:236:in `inject'
+2015-01-14T16:40:29.236899+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/devise-3.4.0/app/controllers/devise_controller.rb:2:in `<top (required)>'
+2015-01-14T16:40:29.237135+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
+2015-01-14T16:40:29.237296+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:465:in `each'
+2015-01-14T16:40:29.237087+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
+2015-01-14T16:40:29.237314+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:465:in `eager_load!'
+2015-01-14T16:40:29.236961+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
+2015-01-14T16:40:29.236943+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
+2015-01-14T16:40:29.237242+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:468:in `block (2 levels) in eager_load!'
+2015-01-14T16:40:29.237278+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:467:in `block in eager_load!'
+2015-01-14T16:40:29.237117+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
+2015-01-14T16:40:29.236979+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
+2015-01-14T16:40:29.237153+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
+2015-01-14T16:40:29.237422+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:30:in `run'
+2015-01-14T16:40:29.237070+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/devise-3.4.0/app/controllers/devise/confirmations_controller.rb:1:in `<top (required)>'
+2015-01-14T16:40:29.237550+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `each'
+2015-01-14T16:40:29.237386+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/application/finisher.rb:58:in `block in <module:Finisher>'
+2015-01-14T16:40:29.237342+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:346:in `eager_load!'
+2015-01-14T16:40:29.237404+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:30:in `instance_exec'
+2015-01-14T16:40:29.237171+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:348:in `require_or_load'
+2015-01-14T16:40:29.237603+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+2015-01-14T16:40:29.237034+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:480:in `load_missing_constant'
+2015-01-14T16:40:29.237807+00:00 app[web.1]: 	from /app/config.ru:3:in `block in <main>'
+2015-01-14T16:40:29.237261+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/engine.rb:467:in `each'
+2015-01-14T16:40:29.237446+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:55:in `block in run_initializers'
+2015-01-14T16:40:29.237361+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/application/finisher.rb:58:in `each'
+2015-01-14T16:40:29.237206+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:225:in `require_dependency'
+2015-01-14T16:40:29.237742+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `block in require'
+2015-01-14T16:40:29.237515+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+2015-01-14T16:40:29.237621+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+2015-01-14T16:40:29.237680+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/application.rb:300:in `initialize!'
+2015-01-14T16:40:29.237778+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
+2015-01-14T16:40:29.237990+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:199:in `app'
+2015-01-14T16:40:29.237585+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:345:in `call'
+2015-01-14T16:40:29.2
+37532+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+2015-01-14T16:40:29.237471+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+2015-01-14T16:40:29.237972+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:277:in `build_app_and_options_from_config'
+2015-01-14T16:40:29.237706+00:00 app[web.1]: 	from /app/config/environment.rb:5:in `<top (required)>'
+2015-01-14T16:40:29.237496+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+2015-01-14T16:40:29.237826+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+2015-01-14T16:40:29.237724+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:247:in `require'
+2015-01-14T16:40:29.238079+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/server.rb:69:in `start'
+2015-01-14T16:40:29.237881+00:00 app[web.1]: 	from /app/config.ru:in `<main>'
+2015-01-14T16:40:29.237936+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `new_from_string'
+2015-01-14T16:40:29.237638+00:00 app[web.1]: 	from /app/vendor/ruby-2.1.3/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+2015-01-14T16:40:29.237656+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/initializable.rb:54:in `run_initializers'
+2015-01-14T16:40:29.238043+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:314:in `wrapped_app'
+2015-01-14T16:40:29.237760+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/activesupport-4.1.6/lib/active_support/dependencies.rb:232:in `load_dependency'
+2015-01-14T16:40:29.237844+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+2015-01-14T16:40:29.237954+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:40:in `parse_file'
+2015-01-14T16:40:29.238061+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:250:in `start'
+2015-01-14T16:40:29.238008+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/server.rb:50:in `app'
+2015-01-14T16:40:29.237862+00:00 app[web.1]: 	from /app/config.ru:in `new'
+2015-01-14T16:40:29.238163+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+2015-01-14T16:40:29.237899+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/builder.rb:49:in `eval'
+2015-01-14T16:40:29.238115+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `tap'
+2015-01-14T16:40:29.238181+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands.rb:17:in `<top (required)>'
+2015-01-14T16:40:29.238145+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `server'
+2015-01-14T16:40:29.238097+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:81:in `block in server'
+2015-01-14T16:40:29.238218+00:00 app[web.1]: 	from bin/rails:8:in `<main>'
+2015-01-14T16:40:29.238200+00:00 app[web.1]: 	from bin/rails:8:in `require'
+2015-01-14T16:40:30.315187+00:00 heroku[web.1]: Process exited with status 1
+2015-01-14T16:40:30.327732+00:00 heroku[web.1]: State changed from starting to crashed
+2015-01-14T16:42:41+00:00 heroku[slug-compiler]: Slug compilation started
+2015-01-14T16:43:31.738026+00:00 heroku[api]: Deploy 2777c95 by pkalapat@gmail.com
+2015-01-14T16:43:31.738026+00:00 heroku[api]: Release v25 created by pkalapat@gmail.com
+2015-01-14T16:43:31.831927+00:00 heroku[web.1]: State changed from crashed to starting
+2015-01-14T16:43:34.776554+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 34678 -e production`
+2015-01-14T16:43:39.195213+00:00 app[web.1]: [2015-01-14 16:43:39] INFO  WEBrick 1.3.1
+2015-01-14T16:43:39.195238+00:00 app[web.1]: [2015-01-14 16:43:39] INFO  ruby 2.1.3 (2014-09-19) [x86_64-linux]
+2015-01-14T16:43:39.195577+00:00 app[web.1]: [2015-01-14 16:43:39] INFO  WEBrick::HTTPServer#start: pid=2 port=34678
+2015-01-14T16:43:39.633204+00:00 heroku[web.1]: State changed from starting to up
+2015-01-14T16:43:49.764768+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by pkalapat@gmail.com
+2015-01-14T16:43:53.506568+00:00 heroku[run.1501]: Awaiting client
+2015-01-14T16:43:53.546127+00:00 heroku[run.1501]: Starting process with command `bundle exec rake db:migrate`
+2015-01-14T16:43:53.896848+00:00 heroku[run.1501]: State changed from starting to up
+2015-01-14T16:43:57.482873+00:00 heroku[run.1501]: Process exited with status 0
+2015-01-14T16:43:57.498638+00:00 heroku[run.1501]: State changed from up to complete
+2015-01-14T16:44:03.783426+00:00 app[web.1]: => Rails 4.1.6 application starting in production on http://0.0.0.0:34678
+2015-01-14T16:44:03.783428+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2015-01-14T16:44:03.783430+00:00 app[web.1]: => Notice: server is listening on all interfaces (0.0.0.0). Consider using 127.0.0.1 (--binding option)
+2015-01-14T16:44:03.783421+00:00 app[web.1]: => Booting WEBrick
+2015-01-14T16:44:03.783431+00:00 app[web.1]: => Ctrl-C to shutdown server
+2015-01-14T16:44:03.873624+00:00 app[web.1]: Processing by ListingsController#index as HTML
+2015-01-14T16:44:03.783433+00:00 app[web.1]: Started GET "/" for 128.107.239.234 at 2015-01-14 16:44:03 +0000
+2015-01-14T16:44:04.360079+00:00 app[web.1]: Completed 500 Internal Server Error in 486ms
+2015-01-14T16:44:04.359801+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (456.9ms)
+2015-01-14T16:44:04.362168+00:00 app[web.1]: 
+2015-01-14T16:44:04.362177+00:00 app[web.1]:      8:           <%= image_tag listing.image.url %> 
+2015-01-14T16:44:04.362188+00:00 app[web.1]: 
+2015-01-14T16:44:04.362171+00:00 app[web.1]: ActionView::Template::Error (User is not authenticated.):
+2015-01-14T16:44:04.362187+00:00 app[web.1]: 
+2015-01-14T16:44:04.362176+00:00 app[web.1]:      7:          
+2015-01-14T16:44:04.362173+00:00 app[web.1]:      5:           <div class="thumbnail">
+2015-01-14T16:44:04.362174+00:00 app[web.1]:      6:           
+2015-01-14T16:44:04.362179+00:00 app[web.1]:      9:           <div class="caption">
+2015-01-14T16:44:04.362184+00:00 app[web.1]:   app/views/listings/index.html.erb:8:in `block in _app_views_listings_index_html_erb__1413386166293626596_70044599470720'
+2015-01-14T16:44:04.362186+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb__1413386166293626596_70044599470720'
+2015-01-14T16:44:04.362181+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
+2015-01-14T16:44:04.362182+00:00 app[web.1]:     11:             <p> <%= number_to_currency(listing.price) %></p>
+2015-01-14T16:44:04.578509+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=1f2d696e-ca8e-4427-a293-5063c5503980 fwd="128.107.239.234" dyno=web.1 connect=1ms service=4ms status=200 bytes=228
+2015-01-14T16:44:04.365347+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=feba5024-d422-4a72-8bb0-aecc613aa620 fwd="128.107.239.234" dyno=web.1 connect=0ms service=585ms status=500 bytes=1754
