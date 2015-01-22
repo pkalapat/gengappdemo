@@ -1,15 +1,62 @@
-Usage: heroku logs
-
- display recent log output
-
- -n, --num NUM        # the number of lines to display
- -p, --ps PS          # only display logs from the given process
- -s, --source SOURCE  # only display logs from the given source
- -t, --tail           # continually stream logs
-
-Example:
-
- $ heroku logs
- 2012-01-01T12:00:00+00:00 heroku[api]: Config add EXAMPLE by email@example.com
- 2012-01-01T12:00:01+00:00 heroku[api]: Release v1 created by email@example.com
-
+2015-01-22T07:22:40+00:00 heroku[slug-compiler]: Slug compilation started
+2015-01-22T07:23:30+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-01-22T07:23:30.882151+00:00 heroku[api]: Deploy e5bc0fe by pkalapat@gmail.com
+2015-01-22T07:23:30.882230+00:00 heroku[api]: Release v28 created by pkalapat@gmail.com
+2015-01-22T07:24:15.668778+00:00 heroku[web.1]: Unidling
+2015-01-22T07:24:15.669068+00:00 heroku[web.1]: State changed from down to starting
+2015-01-22T07:24:18.321298+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 21294 -e production`
+2015-01-22T07:24:21.916333+00:00 app[web.1]: [2015-01-22 07:24:21] INFO  WEBrick 1.3.1
+2015-01-22T07:24:21.916355+00:00 app[web.1]: [2015-01-22 07:24:21] INFO  ruby 2.1.3 (2014-09-19) [x86_64-linux]
+2015-01-22T07:24:21.916734+00:00 app[web.1]: [2015-01-22 07:24:21] INFO  WEBrick::HTTPServer#start: pid=3 port=21294
+2015-01-22T07:24:22.554945+00:00 heroku[web.1]: State changed from starting to up
+2015-01-22T07:24:23.800066+00:00 app[web.1]: => Booting WEBrick
+2015-01-22T07:24:23.800072+00:00 app[web.1]: => Rails 4.1.6 application starting in production on http://0.0.0.0:21294
+2015-01-22T07:24:23.800074+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2015-01-22T07:24:23.800077+00:00 app[web.1]: => Ctrl-C to shutdown server
+2015-01-22T07:24:23.800076+00:00 app[web.1]: => Notice: server is listening on all interfaces (0.0.0.0). Consider using 127.0.0.1 (--binding option)
+2015-01-22T07:24:23.800078+00:00 app[web.1]: Started GET "/" for 128.107.239.233 at 2015-01-22 07:24:23 +0000
+2015-01-22T07:24:23.937174+00:00 app[web.1]: Processing by ListingsController#index as HTML
+2015-01-22T07:24:24.390525+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=40e86523-ede9-4c2e-ba7d-3d6c62a5b407 fwd="128.107.239.233" dyno=web.1 connect=1ms service=591ms status=500 bytes=1754
+2015-01-22T07:24:24.383880+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (424.6ms)
+2015-01-22T07:24:24.385595+00:00 app[web.1]:      7:          
+2015-01-22T07:24:24.383991+00:00 app[web.1]: Completed 500 Internal Server Error in 447ms
+2015-01-22T07:24:24.385587+00:00 app[web.1]: 
+2015-01-22T07:24:24.385590+00:00 app[web.1]: ActionView::Template::Error (User is not authenticated.):
+2015-01-22T07:24:24.385594+00:00 app[web.1]:      6:           
+2015-01-22T07:24:24.385597+00:00 app[web.1]:      8:           <%= image_tag listing.image.url %> 
+2015-01-22T07:24:24.385598+00:00 app[web.1]:      9:           <div class="caption">
+2015-01-22T07:24:24.385592+00:00 app[web.1]:      5:           <div class="thumbnail">
+2015-01-22T07:24:24.385607+00:00 app[web.1]: 
+2015-01-22T07:24:24.385600+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
+2015-01-22T07:24:24.385602+00:00 app[web.1]:     11:             <p> <%= number_to_currency(listing.price) %></p>
+2015-01-22T07:24:24.385603+00:00 app[web.1]:   app/views/listings/index.html.erb:8:in `block in _app_views_listin
+gs_index_html_erb___4317902270665435070_70019346590540'
+2015-01-22T07:24:24.385605+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb___4317902270665435070_70019346590540'
+2015-01-22T07:24:24.385608+00:00 app[web.1]: 
+2015-01-22T07:24:24.729134+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=f3bb110f-08e8-4aa7-a389-fb2dd65c2329 fwd="128.107.239.233" dyno=web.1 connect=1ms service=5ms status=200 bytes=228
+2015-01-22T07:29:52.965244+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by pkalapat@gmail.com
+2015-01-22T07:29:55.857607+00:00 heroku[run.1541]: Awaiting client
+2015-01-22T07:29:55.892730+00:00 heroku[run.1541]: Starting process with command `bundle exec rake db:migrate`
+2015-01-22T07:29:56.187152+00:00 heroku[run.1541]: State changed from starting to up
+2015-01-22T07:30:00.235361+00:00 heroku[run.1541]: State changed from up to complete
+2015-01-22T07:30:00.204424+00:00 heroku[run.1541]: Process exited with status 0
+2015-01-22T07:30:06.983647+00:00 app[web.1]: Processing by ListingsController#index as HTML
+2015-01-22T07:30:06.981334+00:00 app[web.1]: Started GET "/" for 128.107.239.233 at 2015-01-22 07:30:06 +0000
+2015-01-22T07:30:07.310236+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=1502f217-15f2-4982-9c49-83f84625adb1 fwd="128.107.239.233" dyno=web.1 connect=1ms service=331ms status=500 bytes=1754
+2015-01-22T07:30:07.308500+00:00 app[web.1]:      6:           
+2015-01-22T07:30:07.308502+00:00 app[web.1]:      8:           <%= image_tag listing.image.url %> 
+2015-01-22T07:30:07.308503+00:00 app[web.1]:      9:           <div class="caption">
+2015-01-22T07:30:07.308498+00:00 app[web.1]:      5:           <div class="thumbnail">
+2015-01-22T07:30:07.308501+00:00 app[web.1]:      7:          
+2015-01-22T07:30:07.306741+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (322.2ms)
+2015-01-22T07:30:07.306849+00:00 app[web.1]: Completed 500 Internal Server Error in 323ms
+2015-01-22T07:30:07.308497+00:00 app[web.1]: ActionView::Template::Error (User is not authenticated.):
+2015-01-22T07:30:07.308494+00:00 app[web.1]: 
+2015-01-22T07:30:07.308506+00:00 app[web.1]:     11:             <p> <%= number_to_cu
+rrency(listing.price) %></p>
+2015-01-22T07:30:07.308505+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
+2015-01-22T07:30:07.308511+00:00 app[web.1]: 
+2015-01-22T07:30:07.308512+00:00 app[web.1]: 
+2015-01-22T07:30:07.308508+00:00 app[web.1]:   app/views/listings/index.html.erb:8:in `block in _app_views_listings_index_html_erb___4317902270665435070_70019346590540'
+2015-01-22T07:30:07.308509+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb___4317902270665435070_70019346590540'
+2015-01-22T07:30:07.512594+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=9f125387-1bf7-4f3b-9eb8-833a2cdee95b fwd="128.107.239.233" dyno=web.1 connect=1ms service=3ms status=304 bytes=133
