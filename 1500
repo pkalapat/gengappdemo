@@ -1,101 +1,101 @@
-2015-01-22T08:30:58.362160+00:00 heroku[router]: at=info method=GET path="/listings/1" host=gengappdemo-2014.herokuapp.com request_id=e3acd2c3-2e0b-4096-a66d-23beca34cd8d fwd="173.36.240.168" dyno=web.1 connect=1ms service=320ms status=500 bytes=1754
-2015-01-22T08:30:58.359481+00:00 app[web.1]: Completed 500 Internal Server Error in 311ms
-2015-01-22T08:30:58.559653+00:00 app[web.1]:   Parameters: {"id"=>"1"}
-2015-01-22T08:30:58.559629+00:00 app[web.1]: Processing by ListingsController#show as HTML
-2015-01-22T08:30:58.359320+00:00 app[web.1]:   Rendered listings/show.html.erb within layouts/application (306.6ms)
-2015-01-22T08:30:58.361165+00:00 app[web.1]:   app/views/listings/show.html.erb:8:in `_app_views_listings_show_html_erb___662746578205527623_70156419382820'
-2015-01-22T08:30:58.361159+00:00 app[web.1]:      8:         <%= image_tag @listing.image.url %>
-2015-01-22T08:30:58.361166+00:00 app[web.1]: 
-2015-01-22T08:30:58.361168+00:00 app[web.1]: 
-2015-01-22T08:30:58.557500+00:00 app[web.1]: Started GET "/listings/1" for 173.36.240.168 at 2015-01-22 08:30:58 +0000
-2015-01-22T08:30:58.361154+00:00 app[web.1]:      5:  <div class="row">
-2015-01-22T08:30:58.361152+00:00 app[web.1]: ActionView::Template::Error (User is not authenticated.):
-2015-01-22T08:30:58.361156+00:00 app[web.1]:      6:    <div class="col-md-6">
-2015-01-22T08:30:58.361149+00:00 app[web.1]: 
-2015-01-22T08:30:58.361163+00:00 app[web.1]:     11:    <div class="col-md-6">
-2015-01-22T08:30:58.361157+00:00 app[web.1]:      7:     <div class="thumbnail">
-2015-01-22T08:30:58.361160+00:00 app[web.1]:      9:      </div>
-2015-01-22T08:30:58.361162+00:00 app[web.1]:     10:    </div>
-2015-01-22T08:30:58.915574+00:00 heroku[router]: at=info method=GET path="/listings/1" host=gengappdemo-2014.herokuapp.com request_id=eb1966a5-ce67-4373-91a2-fac8ee36d918 fwd="173.36.240.168" dyno=web.1 connect=1ms service=361ms status=500 bytes=1754
-2015-01-22T08:30:58.912471+00:00 app[web.1]: ActionView::Template::Error (User is not authenticated.):
-2015-01-22T08:30:58.912500+00:00 app[web.1]: 
-2015-01-22T08:30:58.910607+00:00 app[web.1]:   Rendered listings/show.html.erb within layouts/application (347.5ms)
-2015-01-22T08:30:58.912497+00:00 app[web.1]:   app/views/listings/show.html.erb:8:in `_app_views_listings_show_html_erb___662746578205527623_70156420023300'
-2015-01-22T08:30:58.912468+00:00 app[web.1]: 
-2015-01-22T08:30:58.912498+00:00 app[web.1]: 
-2015-01-22T08:30:58.912486+00:00 app[web.1]:      5:  <div class="row">
-2015-01-22T08:30:59.080174+00:00 app[web.1]: Started GET "/listings/1" for 173.36.240.168 at 2015-01-22 08:30:59 +0000
-2015-01-22T08:30:58.912488+00:00 app[web.1]:      6:    <div class="col-md-6">
-2015-01-22T08:30:58.910783+00:00 app[web.1]: Completed 500 Internal Server Error in 351ms
-2015-01-22T08:30:58.912489+00:00 app[web.1]:      7:     <div class="thumbnail">
-2015-01-22T08:30:58.912491+00:00 app[web.1]:      8:         <%= image_tag @listing.image.url %>
-2015-01-22T08:30:59.082232+00:00 app[web.1]: Processing by ListingsController#show as HTML
-2015-01-22T08:30:58.912492+00:00 app[web.1]:      9:      </div>
-2015-01-22T08:30:58.912494+00:00 app[web.1]:     10:    </div>
-2015-01-22T08:30:59.082263+00:00 app[web.1]:   Parameters: {"id"=>"1"}
-2015-01-22T08:30:58.912495+00:00 app[web.1]:     11:    <div class="col-md-6">
-2015-01-22T08:30:59.429534+00:00 heroku[router]: at=info method=GET path="/listings/1" host=gengappdemo-2014.herokuapp.com request_id=6f096d3c-5e07-4eb5-a348-fcdc1d157b42 fwd="173.36.240.168" dyno=web.1 connect=1ms service=361ms status=500 bytes=1754
-2015-01-22T08:30:59.431514+00:00 app[web.1]:   Rendered listings/show.html.erb within layouts/application (346.2ms)
-2015-01-22T08:30:59.431728+00:00 app[web.1]: Completed 500 Internal Server Error in 349ms
-2015-01-22T08:30:59.433491+00:00 app[web.1]:      6:    <div class="col-md-6">
-2015-01-22T08:30:59.433493+00:00 app[web.1]:      7:     <div class="thumbnail">
-2015-01-22T08:30:59.433494+00:00 app[web.1]:      8:         <%= image_tag @listing.image.url %>
-2015-01-22T08:30:59.433496+00:00 app[web.1]:      9:      </div>
-2015-01-22T08:30:59.433497+00:00 app[web.1]:     10:    </div>
-2015-01-22T08:30:59.433485+00:00 app[web.1]: 
-2015-01-22T08:30:59.433488+00:00 app[web.1]: ActionView::Template::Error (User is not authenticated.):
-2015-01-22T08:30:59.433490+00:00 app[web.1]:      5:  <div class="row">
-2015-01-22T08:30:59.433499+00:00 app[web.1]:     11:    <div class="col-md-6">
-2015-01-22T08:30:59.433522+00:00 app[web.1]:   app/views/listings/show.html.erb:8:in `_app_views_listings_show_html_erb___662746578205527623_70156420023300'
-2015-01-22T08:30:59.433523+00:00 app[web.1]: 
-2015-01-22T08:30:59.433525+00:00 app[web.1]: 
-2015-01-22T08:31:03.081087+00:00 app[web.1]: Processing by ListingsController#new as HTML
-2015-01-22T08:31:03.087222+00:00 app[web.1]:   Rendered listings/new.html.erb within layouts/application (4.8ms)
-2015-01-22T08:31:03.088851+00:00 app[web.1]:   Rendered layouts/_footer.html.erb (0.0ms)
-2015-01-22T08:31:03.078919+00:00 app[web.1]: Started GET "/listings/new" for 173.36.240.168 at 2015-01-22 08:31:03 +0000
-2015-01-22T08:31:03.089360+00:00 heroku[router]: at=info method=GET path="/listings/new" host=gengappdemo-2014.herokuapp.com request_id=441a3385-98e5-4228-99a2-f86ef1c24c0e fwd="173.36.240.168" dyno=web.1 connect=1ms service=15ms status=304 bytes=731
-2015-01-22T08:31:03.086999+00:00 app[web.1]:   Rendered listings/_form.html.erb (4.3ms)
-2015-01-22T08:31:03.088606+00:00 app[web.1]:   Rendered layouts/_header.html.erb (0.7ms)
-2015-01-22T08:31:03.089147+00:00 app[web.1]: Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
-2015-01-22T08:31:28.489796+00:00 app[web.1]: Started POST "/listings" for 173.36.240.168 at 2015-01-22 08:31:28 +0000
-2015-01-22T08:31:28.577188+00:00 app[web.1]: Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-1fl814f.JPG[0]' 2>/dev/null
-2015-01-22T08:31:28.687506+00:00 app[web.1]: Command :: convert '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-1fl814f.JPG[0]' -auto-orient -resize "200>" '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-1fl814f20150122-3-17i6msd'
-2015-01-22T08:31:28.491886+00:00 app[web.1]: Processing by ListingsController#create as HTML
-2015-01-22T08:31:28.491984+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJGE5scDHhMZSeJIyYT4ZlwxxHzjLr7WksQP76sfXCU=", "listing"=>{"name"=>"p", "description"=>"pk", "price"=>"", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f9d211b32d8 @tempfile=#<Tempfile:/tmp/RackMultipart20150122-3-1m0vnot>, @original_filename="IMG_0275.JPG", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"IMG_0275.JPG\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Listing"}
-2015-01-22T08:31:28.527160+00:00 app[web.1]: Command :: file -b --mime '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-icp3ir.JPG'
-2015-01-22T08:31:28.636465+00:00 app[web.1]: Command :: identify -format %m '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-1fl814f.JPG[0]'
-2015-01-22T08:31:28.836216+00:00 app[web.1]: Command :: file -b --mime '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-1fl814f20150122-3-17i6msd'
-2015-01-22T08:31:28.945248+00:00 app[web.1]: Command :: identify -format %m '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-1fl814f.JPG[0]'
-2015-01-22T08:31:28.881121+00:00 app[web.1]: Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-1fl814f.JPG[0]' 2>/dev/null
-2015-01-22T08:31:28.997708+00:00 app[web.1]: Command :: convert '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-1fl814f.JPG[0]' -auto-orient -resize "100x100>" '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-1fl814f20150122-3-q74xy8'
-2015-01-22T08:31:29.109930+00:00 app[web.1]: Command :: file -b --mime '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-1fl814f20150122-3-q74xy8'
-2015-01-22T08:31:29.158857+00:00 app[web.1]: Command :: file -b --mime '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-1vajfvx.JPG'
-2015-01-22T08:31:29.547227+00:00 heroku[router]: at=info method=POST path="/listings" host=gengappdemo-2014.herokuapp.com request_id=3cbf4f19-1f88-4bb1-ab68-79bb17204b9c fwd="173.36.240.168" dyno=web.1 connect=1ms service=1499ms status=500 bytes=1754
-2015-01-22T08:31:29.542368+00:00 app[web.1]: 
-2015-01-22T08:31:29.542365+00:00 app[web.1]:   app/controllers/listings_controller.rb:29:in `create'
-2015-01-22T08:31:29.542367+00:00 app[web.1]: 
-2015-01-22T08:31:29.542361+00:00 app[web.1]: DropboxAuthError (User is not authenticated.):
-2015-01-22T08:31:29.542363+00:00 app[web.1]:   app/controllers/listings_controller.rb:30:in `block in create'
-2015-01-22T08:31:29.542358+00:00 app[web.1]: 
-2015-01-22T08:31:29.540521+00:00 app[web.1]: Completed 500 Internal Server Error in 1048ms
-2015-01-22T08:31:30.376037+00:00 app[web.1]: Command :: convert '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-mow1g5.JPG[0]' -auto-orient -resize "200>" '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-mow1g520150122-3-nxaidv'
-2015-01-22T08:31:30.253764+00:00 app[web.1]: Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-mow1g5.JPG[0]' 2>/dev/null
-2015-01-22T08:31:30.153369+00:00 app[web.1]: Started POST "/listings" for 173.36.240.168 at 2015-01-22 08:31:30 +0000
-2015-01-22T08:31:30.156330+00:00 app[web.1]: Processing by ListingsController#create as HTML
-2015-01-22T08:31:30.156459+00:00 app[web.1]:   Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJGE5scDHhMZSeJIyYT4ZlwxxHzjLr7WksQP76sfXCU=", "listing"=>{"name"=>"p", "description"=>"pk", "price"=>"", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f9d214819b0 @tempfile=#<Tempfile:/tmp/RackMultipart20150122-3-6ixq7c>, @original_filename="IMG_0275.JPG", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"IMG_0275.JPG\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Listing"}
-2015-01-22T08:31:30.193939+00:00 app[web.1]: Command :: file -b --mime '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-t002gk.JPG'
-2015-01-22T08:31:30.320392+00:00 app[web.1]: Command :: identify -format %m '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-mow1g5.JPG[0]'
-2015-01-22T08:31:30.502860+00:00 app[web.1]: Command :: file -b --mime '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-mow1g520150122-3-nxaidv'
-2015-01-22T08:31:30.619797+00:00 app[web.1]: Command :: identify -format %m '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-mow1g5.JPG[0]'
-2015-01-22T08:31:30.552722+00:00 app[web.1]: Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-mow1g5.JPG[0]' 2>/dev/null
-2015-01-22T08:31:30.674583+00:00 app[web.1]: Command :: convert '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-mow1g5.JPG[0]' -auto-orient -resize "100x100>" '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-mow1g520150122-3-4jkno8'
-2015-01-22T08:31:30.798311+00:00 app[web.1]: Command :: file -b --mime '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-mow1g520150122-3-4jkno8'
-2015-01-22T08:31:30.848216+00:00 app[web.1]: Command :: file -b --mime '/tmp/55bd4d584fa39dccb1734799357ddc1420150122-3-oasqyw.JPG'
-2015-01-22T08:31:31.194955+00:00 app[web.1]: Completed 500 Internal Server Error in 1038ms
-2015-01-22T08:31:31.196818+00:00 heroku[router]: at=info method=POST path="/listings" host=gengappdemo-2014.herokuapp.com request_id=839afed6-325d-4a8b-b95e-93d0b0552c7c fwd="173.36.240.168" dyno=web.1 connect=2ms service=1497ms status=500 bytes=1754
-2015-01-22T08:31:31.196827+00:00 app[web.1]: DropboxAuthError (User is not authenticated.):
-2015-01-22T08:31:31.196824+00:00 app[web.1]: 
-2015-01-22T08:31:31.196832+00:00 app[web.1]:   app/controllers/listings_controller.rb:29:in `create'
-2015-01-22T08:31:31.196833+00:00 app[web.1]: 
-2015-01-22T08:31:31.196835+00:00 app[web.1]: 
-2015-01-22T08:31:31.196830+00:00 app[web.1]:   app/controllers/listings_controller.rb:30:in `block in create'
+2015-01-22T08:49:51.831048+00:00 app[web.1]: 	/app/vendor/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:170:in `block in start'
+2015-01-22T08:49:51.831065+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands.rb:17:in `<top (required)>'
+2015-01-22T08:49:51.831053+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:14:in `run'
+2015-01-22T08:49:51.831094+00:00 app[web.1]: [2015-01-22 08:49:51] INFO  going to shutdown ...
+2015-01-22T08:49:51.831040+00:00 app[web.1]: [2015-01-22 08:49:51] FATAL SignalException: SIGTERM
+2015-01-22T08:49:51.831062+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `server'
+2015-01-22T08:49:51.831052+00:00 app[web.1]: 	/app/vendor/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:160:in `start'
+2015-01-22T08:49:51.831068+00:00 app[web.1]: 	bin/rails:8:in `<main>'
+2015-01-22T08:49:51.831059+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:81:in `block in server'
+2015-01-22T08:49:51.831061+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `tap'
+2015-01-22T08:49:52.701999+00:00 heroku[web.1]: Process exited with status 143
+2015-01-22T08:49:55.610244+00:00 app[web.1]: [2015-01-22 08:49:55] INFO  ruby 2.1.3 (2014-09-19) [x86_64-linux]
+2015-01-22T08:49:55.610223+00:00 app[web.1]: [2015-01-22 08:49:55] INFO  WEBrick 1.3.1
+2015-01-22T08:49:55.610582+00:00 app[web.1]: [2015-01-22 08:49:55] INFO  WEBrick::HTTPServer#start: pid=3 port=7841
+2015-01-22T08:49:56.064459+00:00 heroku[web.1]: State changed from starting to up
+2015-01-22T08:49:57.314840+00:00 app[web.1]: => Rails 4.1.6 application starting in production on http://0.0.0.0:7841
+2015-01-22T08:49:57.314842+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2015-01-22T08:49:57.314844+00:00 app[web.1]: => Notice: server is listening on all interfaces (0.0.0.0). Consider using 127.0.0.1 (--binding option)
+2015-01-22T08:49:57.314845+00:00 app[web.1]: => Ctrl-C to shutdown server
+2015-01-22T08:49:57.314836+00:00 app[web.1]: => Booting WEBrick
+2015-01-22T08:49:57.314847+00:00 app[web.1]: Started GET "/" for 128.107.239.233 at 2015-01-22 08:49:57 +0000
+2015-01-22T08:49:57.401478+00:00 app[web.1]: Processing by ListingsController#index as HTML
+2015-01-22T08:49:58.408655+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (986.0ms)
+2015-01-22T08:49:58.410547+00:00 app[web.1]:      9:           <div class="caption">
+2015-01-22T08:49:58.408784+00:00 app[web.1]: Completed 500 Internal Server Error in 1007ms
+2015-01-22T08:49:58.410548+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
+2015-01-22T08:49:58.410536+00:00 app[web.1]: 
+2015-01-22T08:49:58.410542+00:00 app[web.1]:      6:           
+2015-01-22T08:49:58.410550+00:00 app[web.1]:     11:             <p> <%= number_to_currency(listing.price) %></p>
+2015-01-22T08:49:58.410544+00:00 app[web.1]:      7:          
+2015-01-22T08:49:58.410552+00:00 app[web.1]:   app/views/listings/index.html.erb:8:in `block in _app_views_listings_index_html_erb___4596169857285164416_70285641907640'
+2015-01-22T08:49:58.410539+00:00 app[web.1]: ActionView::Template::Error (Path '/original/1_legends-of-ganesha.jpg' not found):
+2015-01-22T08:49:58.410540+00:00 app[web.1]:      5:           <div class="thumbnail">
+2015-01-22T08:49:58.410545+00:00 app[web.1]:      8:           <%= link_to image_tag(listing.image.url), listing %>
+2015-01-22T08:49:58.410553+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb___4596169857285164416_70285641907640'
+2015-01-22T08:49:58.410555+00:00 app[web.1]: 
+2015-01-22T08:49:58.410556+00:00 app[web.1]: 
+2015-01-22T08:49:58.411980+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=231d3d39-c3c8-4f04-b779-419d8c4ee68c fwd="128.107.239.233" dyno=web.1 connect=1ms service=1102ms status=500 bytes=1754
+2015-01-22T08:49:58.996653+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=f3916f18-46e0-4d3a-a70b-8a2182447b99 fwd="128.107.239.233" dyno=web.1 connect=1ms service=4ms status=200 bytes=228
+2015-01-22T08:50:57.525758+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by pkalapat@gmail.com
+2015-01-22T08:51:00.958847+00:00 heroku[run.8643]: Awaiting client
+2015-01-22T08:51:00.995854+00:00 heroku[run.8643]: Starting process with command `bundle exec rake db:migrate`
+2015-01-22T08:51:01.193241+00:00 heroku[run.8643]: State changed from starting to up
+2015-01-22T08:51:05.544334+00:00 heroku[run.8643]: Process exited with status 0
+2015-01-22T08:51:05.558245+00:00 heroku[run.8643]: State changed from up to complete
+2015-01-22T08:51:14.189099+00:00 app[web.1]: Started GET "/" for 128.107.239.233 at 2015-01-22 08:51:14 +0000
+2015-01-22T08:51:14.191431+00:00 app[web.1]: Processing by ListingsController#index as HTML
+2015-01-22T08:51:14.564998+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=a2a86cd6-b44b-4be5-bd7d-f12085c9ce28 fwd="128.107.239.233" dyno=web.1 connect=1ms service=378ms status=500 bytes=1754
+2015-01-22T08:51:14.563048+00:00 app[web.1]: 
+2015-01-22T08:51:14.563053+00:00 app[web.1]:      5:           <div class="thumbnail">
+2015-01-22T08:51:14.563058+00:00 app[web.1]:      8:           <%= link_to image_tag(listing.image.url), listing %>
+2015-01-22T08:51:14.563055+00:00 app[web.1]:      6:           
+2015-01-22T08:51:14.563061+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
+2015-01-22T08:51:14.563056+00:00 app[web.1]:      7:          
+2015-01-22T08:51:14.563059+00:00 app[web.1]:      9:           <div class="caption">
+2015-01-22T08:51:14.561082+00:00 app[web.1]: Completed 500 Internal Server Error in 370ms
+2015-01-22T08:51:14.560838+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (368.2ms)
+2015-01-22T08:51:14.563051+00:00 app[web.1]: ActionView::Template::Error (Path '/original/1_legends-of-ganesha.jpg' not found):
+2015-01-22T08:51:14.563064+00:00 app[web.1]:   app/views/listings/index.html.erb:8:in `block in _app_views_listings_index_html_erb___4596169857285164416_70285641907640'
+2015-01-22T08:51:14.563062+00:00 app[web.1]:     11:             <p> <%= number_to_currency(listing.price) %></p>
+2015-01-22T08:51:14.563066+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb___4596169857285164416_70285641907640'
+2015-01-22T08:51:14.563068+00:00 app[web.1]: 
+2015-01-22T08:51:14.563067+00:00 app[web.1]: 
+2015-01-22T08:51:14.770951+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=0f6ea81d-e4e1-4210-9ba2-f6d747ca6006 fwd="128.107.239.233" dyno=web.1 connect=1ms service=4ms status=304 bytes=133
+2015-01-22T08:56:09.096378+00:00 app[web.1]: Started GET "/" for 128.107.239.233 at 2015-01-22 08:56:09 +0000
+2015-01-22T08:56:09.100052+00:00 app[web.1]: Processing by ListingsController#index as HTML
+2015-01-22T08:56:09.449865+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=56263bd1-57f5-44dc-b50c-88ac1848ae72 fwd="128.107.239.233" dyno=web.1 connect=1ms service=357ms status=500 bytes=1754
+2015-01-22T08:56:09.447970+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (346.7ms)
+2015-01-22T08:56:09.449915+00:00 app[web.1]: 
+2015-01-22T08:56:09.449924+00:00 app[web.1]:      7:          
+2015-01-22T08:56:09.449919+00:00 app[web.1]: ActionView::Template::Error (Path '/original/1_legends-of-ganesha.jpg' not found):
+2015-01-22T08:56:09.449922+00:00 app[web.1]:      6:           
+2015-01-22T08:56:09.449927+00:00 app[web.1]:      9:           <div class="caption">
+2015-01-22T08:56:09.449929+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
+2015-01-22T08:56:09.448138+00:00 app[web.1]: Completed 500 Internal Server Error in 348ms
+2015-01-22T08:56:09.449920+00:00 app[web.1]:      5:           <div class="thumbnail">
+2015-01-22T08:56:09.449930+00:00 app[web.1]:     11:             <p> <%= number_to_currency(listing.price) %></p>
+2015-01-22T08:56:09.449932+00:00 app[web.1]:   app/views/listings/index.html.erb:8:in `block in _app_views_listings_index_html_erb___4596169857285164416_70285641907640'
+2015-01-22T08:56:09.449925+00:00 app[web.1]:      8:           <%= link_to image_tag(listing.image.url), listing %>
+2015-01-22T08:56:09.449934+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb___4596169857285164416_70285641907640'
+2015-01-22T08:56:09.449936+00:00 app[web.1]: 
+2015-01-22T08:56:09.449935+00:00 app[web.1]: 
+2015-01-22T08:56:10.198490+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=c32d38cc-5cb2-413e-b824-4e739879cfd9 fwd="128.107.239.233" dyno=web.1 connect=0ms service=3ms status=304 bytes=133
+2015-01-22T08:56:15.193503+00:00 app[web.1]: Processing by ListingsController#index as HTML
+2015-01-22T08:56:15.191528+00:00 app[web.1]: Started GET "/" for 128.107.239.233 at 2015-01-22 08:56:15 +0000
+2015-01-22T08:56:15.571014+00:00 app[web.1]:      5:           <div class="thumbnail">
+2015-01-22T08:56:15.571016+00:00 app[web.1]:      6:           
+2015-01-22T08:56:15.571018+00:00 app[web.1]:      7:          
+2015-01-22T08:56:15.571019+00:00 app[web.1]:      8:           <%= link_to image_tag(listing.image.url), listing %>
+2015-01-22T08:56:15.569129+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (374.4ms)
+2015-01-22T08:56:15.571021+00:00 app[web.1]:      9:           <div class="caption">
+2015-01-22T08:56:15.571010+00:00 app[web.1]: 
+2015-01-22T08:56:15.571023+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
+2015-01-22T08:56:15.571013+00:00 app[web.1]: ActionView::Template::Error (Path '/original/1_legends-of-ganesha.jpg' not found):
+2015-01-22T08:56:15.571026+00:00 app[web.1]:   app/views/listings/index.html.erb:8:in `block in _app_views_listings_index_html_erb___4596169857285164416_70285641907640'
+2015-01-22T08:56:15.571024+00:00 app[web.1]:     11:             <p> <%= number_to_currency(listing.price) %></p>
+2015-01-22T08:56:15.569283+00:00 app[web.1]: Completed 500 Internal Server Error in 376ms
+2015-01-22T08:56:15.571027+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb___4596169857285164416_70285641907640'
+2015-01-22T08:56:15.571029+00:00 app[web.1]: 
+2015-01-22T08:56:15.571030+00:00 app[web.1]: 
+2015-01-22T08:56:15.571371+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=7ed3f3ff-9fb7-490f-9caa-3d58fb9abb1f fwd="128.107.239.233" dyno=web.1 connect=1ms service=384ms status=500 bytes=1754
