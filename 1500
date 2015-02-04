@@ -1,101 +1,103 @@
-2015-01-22T08:49:51.831048+00:00 app[web.1]: 	/app/vendor/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:170:in `block in start'
-2015-01-22T08:49:51.831065+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands.rb:17:in `<top (required)>'
-2015-01-22T08:49:51.831053+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:14:in `run'
-2015-01-22T08:49:51.831094+00:00 app[web.1]: [2015-01-22 08:49:51] INFO  going to shutdown ...
-2015-01-22T08:49:51.831040+00:00 app[web.1]: [2015-01-22 08:49:51] FATAL SignalException: SIGTERM
-2015-01-22T08:49:51.831062+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `server'
-2015-01-22T08:49:51.831052+00:00 app[web.1]: 	/app/vendor/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:160:in `start'
-2015-01-22T08:49:51.831068+00:00 app[web.1]: 	bin/rails:8:in `<main>'
-2015-01-22T08:49:51.831059+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:81:in `block in server'
-2015-01-22T08:49:51.831061+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `tap'
-2015-01-22T08:49:52.701999+00:00 heroku[web.1]: Process exited with status 143
-2015-01-22T08:49:55.610244+00:00 app[web.1]: [2015-01-22 08:49:55] INFO  ruby 2.1.3 (2014-09-19) [x86_64-linux]
-2015-01-22T08:49:55.610223+00:00 app[web.1]: [2015-01-22 08:49:55] INFO  WEBrick 1.3.1
-2015-01-22T08:49:55.610582+00:00 app[web.1]: [2015-01-22 08:49:55] INFO  WEBrick::HTTPServer#start: pid=3 port=7841
-2015-01-22T08:49:56.064459+00:00 heroku[web.1]: State changed from starting to up
-2015-01-22T08:49:57.314840+00:00 app[web.1]: => Rails 4.1.6 application starting in production on http://0.0.0.0:7841
-2015-01-22T08:49:57.314842+00:00 app[web.1]: => Run `rails server -h` for more startup options
-2015-01-22T08:49:57.314844+00:00 app[web.1]: => Notice: server is listening on all interfaces (0.0.0.0). Consider using 127.0.0.1 (--binding option)
-2015-01-22T08:49:57.314845+00:00 app[web.1]: => Ctrl-C to shutdown server
-2015-01-22T08:49:57.314836+00:00 app[web.1]: => Booting WEBrick
-2015-01-22T08:49:57.314847+00:00 app[web.1]: Started GET "/" for 128.107.239.233 at 2015-01-22 08:49:57 +0000
-2015-01-22T08:49:57.401478+00:00 app[web.1]: Processing by ListingsController#index as HTML
-2015-01-22T08:49:58.408655+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (986.0ms)
-2015-01-22T08:49:58.410547+00:00 app[web.1]:      9:           <div class="caption">
-2015-01-22T08:49:58.408784+00:00 app[web.1]: Completed 500 Internal Server Error in 1007ms
-2015-01-22T08:49:58.410548+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
-2015-01-22T08:49:58.410536+00:00 app[web.1]: 
-2015-01-22T08:49:58.410542+00:00 app[web.1]:      6:           
-2015-01-22T08:49:58.410550+00:00 app[web.1]:     11:             <p> <%= number_to_currency(listing.price) %></p>
-2015-01-22T08:49:58.410544+00:00 app[web.1]:      7:          
-2015-01-22T08:49:58.410552+00:00 app[web.1]:   app/views/listings/index.html.erb:8:in `block in _app_views_listings_index_html_erb___4596169857285164416_70285641907640'
-2015-01-22T08:49:58.410539+00:00 app[web.1]: ActionView::Template::Error (Path '/original/1_legends-of-ganesha.jpg' not found):
-2015-01-22T08:49:58.410540+00:00 app[web.1]:      5:           <div class="thumbnail">
-2015-01-22T08:49:58.410545+00:00 app[web.1]:      8:           <%= link_to image_tag(listing.image.url), listing %>
-2015-01-22T08:49:58.410553+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb___4596169857285164416_70285641907640'
-2015-01-22T08:49:58.410555+00:00 app[web.1]: 
-2015-01-22T08:49:58.410556+00:00 app[web.1]: 
-2015-01-22T08:49:58.411980+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=231d3d39-c3c8-4f04-b779-419d8c4ee68c fwd="128.107.239.233" dyno=web.1 connect=1ms service=1102ms status=500 bytes=1754
-2015-01-22T08:49:58.996653+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=f3916f18-46e0-4d3a-a70b-8a2182447b99 fwd="128.107.239.233" dyno=web.1 connect=1ms service=4ms status=200 bytes=228
-2015-01-22T08:50:57.525758+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by pkalapat@gmail.com
-2015-01-22T08:51:00.958847+00:00 heroku[run.8643]: Awaiting client
-2015-01-22T08:51:00.995854+00:00 heroku[run.8643]: Starting process with command `bundle exec rake db:migrate`
-2015-01-22T08:51:01.193241+00:00 heroku[run.8643]: State changed from starting to up
-2015-01-22T08:51:05.544334+00:00 heroku[run.8643]: Process exited with status 0
-2015-01-22T08:51:05.558245+00:00 heroku[run.8643]: State changed from up to complete
-2015-01-22T08:51:14.189099+00:00 app[web.1]: Started GET "/" for 128.107.239.233 at 2015-01-22 08:51:14 +0000
-2015-01-22T08:51:14.191431+00:00 app[web.1]: Processing by ListingsController#index as HTML
-2015-01-22T08:51:14.564998+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=a2a86cd6-b44b-4be5-bd7d-f12085c9ce28 fwd="128.107.239.233" dyno=web.1 connect=1ms service=378ms status=500 bytes=1754
-2015-01-22T08:51:14.563048+00:00 app[web.1]: 
-2015-01-22T08:51:14.563053+00:00 app[web.1]:      5:           <div class="thumbnail">
-2015-01-22T08:51:14.563058+00:00 app[web.1]:      8:           <%= link_to image_tag(listing.image.url), listing %>
-2015-01-22T08:51:14.563055+00:00 app[web.1]:      6:           
-2015-01-22T08:51:14.563061+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
-2015-01-22T08:51:14.563056+00:00 app[web.1]:      7:          
-2015-01-22T08:51:14.563059+00:00 app[web.1]:      9:           <div class="caption">
-2015-01-22T08:51:14.561082+00:00 app[web.1]: Completed 500 Internal Server Error in 370ms
-2015-01-22T08:51:14.560838+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (368.2ms)
-2015-01-22T08:51:14.563051+00:00 app[web.1]: ActionView::Template::Error (Path '/original/1_legends-of-ganesha.jpg' not found):
-2015-01-22T08:51:14.563064+00:00 app[web.1]:   app/views/listings/index.html.erb:8:in `block in _app_views_listings_index_html_erb___4596169857285164416_70285641907640'
-2015-01-22T08:51:14.563062+00:00 app[web.1]:     11:             <p> <%= number_to_currency(listing.price) %></p>
-2015-01-22T08:51:14.563066+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb___4596169857285164416_70285641907640'
-2015-01-22T08:51:14.563068+00:00 app[web.1]: 
-2015-01-22T08:51:14.563067+00:00 app[web.1]: 
-2015-01-22T08:51:14.770951+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=0f6ea81d-e4e1-4210-9ba2-f6d747ca6006 fwd="128.107.239.233" dyno=web.1 connect=1ms service=4ms status=304 bytes=133
-2015-01-22T08:56:09.096378+00:00 app[web.1]: Started GET "/" for 128.107.239.233 at 2015-01-22 08:56:09 +0000
-2015-01-22T08:56:09.100052+00:00 app[web.1]: Processing by ListingsController#index as HTML
-2015-01-22T08:56:09.449865+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=56263bd1-57f5-44dc-b50c-88ac1848ae72 fwd="128.107.239.233" dyno=web.1 connect=1ms service=357ms status=500 bytes=1754
-2015-01-22T08:56:09.447970+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (346.7ms)
-2015-01-22T08:56:09.449915+00:00 app[web.1]: 
-2015-01-22T08:56:09.449924+00:00 app[web.1]:      7:          
-2015-01-22T08:56:09.449919+00:00 app[web.1]: ActionView::Template::Error (Path '/original/1_legends-of-ganesha.jpg' not found):
-2015-01-22T08:56:09.449922+00:00 app[web.1]:      6:           
-2015-01-22T08:56:09.449927+00:00 app[web.1]:      9:           <div class="caption">
-2015-01-22T08:56:09.449929+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
-2015-01-22T08:56:09.448138+00:00 app[web.1]: Completed 500 Internal Server Error in 348ms
-2015-01-22T08:56:09.449920+00:00 app[web.1]:      5:           <div class="thumbnail">
-2015-01-22T08:56:09.449930+00:00 app[web.1]:     11:             <p> <%= number_to_currency(listing.price) %></p>
-2015-01-22T08:56:09.449932+00:00 app[web.1]:   app/views/listings/index.html.erb:8:in `block in _app_views_listings_index_html_erb___4596169857285164416_70285641907640'
-2015-01-22T08:56:09.449925+00:00 app[web.1]:      8:           <%= link_to image_tag(listing.image.url), listing %>
-2015-01-22T08:56:09.449934+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb___4596169857285164416_70285641907640'
-2015-01-22T08:56:09.449936+00:00 app[web.1]: 
-2015-01-22T08:56:09.449935+00:00 app[web.1]: 
-2015-01-22T08:56:10.198490+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=c32d38cc-5cb2-413e-b824-4e739879cfd9 fwd="128.107.239.233" dyno=web.1 connect=0ms service=3ms status=304 bytes=133
-2015-01-22T08:56:15.193503+00:00 app[web.1]: Processing by ListingsController#index as HTML
-2015-01-22T08:56:15.191528+00:00 app[web.1]: Started GET "/" for 128.107.239.233 at 2015-01-22 08:56:15 +0000
-2015-01-22T08:56:15.571014+00:00 app[web.1]:      5:           <div class="thumbnail">
-2015-01-22T08:56:15.571016+00:00 app[web.1]:      6:           
-2015-01-22T08:56:15.571018+00:00 app[web.1]:      7:          
-2015-01-22T08:56:15.571019+00:00 app[web.1]:      8:           <%= link_to image_tag(listing.image.url), listing %>
-2015-01-22T08:56:15.569129+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (374.4ms)
-2015-01-22T08:56:15.571021+00:00 app[web.1]:      9:           <div class="caption">
-2015-01-22T08:56:15.571010+00:00 app[web.1]: 
-2015-01-22T08:56:15.571023+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
-2015-01-22T08:56:15.571013+00:00 app[web.1]: ActionView::Template::Error (Path '/original/1_legends-of-ganesha.jpg' not found):
-2015-01-22T08:56:15.571026+00:00 app[web.1]:   app/views/listings/index.html.erb:8:in `block in _app_views_listings_index_html_erb___4596169857285164416_70285641907640'
-2015-01-22T08:56:15.571024+00:00 app[web.1]:     11:             <p> <%= number_to_currency(listing.price) %></p>
-2015-01-22T08:56:15.569283+00:00 app[web.1]: Completed 500 Internal Server Error in 376ms
-2015-01-22T08:56:15.571027+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb___4596169857285164416_70285641907640'
-2015-01-22T08:56:15.571029+00:00 app[web.1]: 
-2015-01-22T08:56:15.571030+00:00 app[web.1]: 
-2015-01-22T08:56:15.571371+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=7ed3f3ff-9fb7-490f-9caa-3d58fb9abb1f fwd="128.107.239.233" dyno=web.1 connect=1ms service=384ms status=500 bytes=1754
+2015-02-03T19:02:17.818346+00:00 app[web.1]: => Notice: server is listening on all interfaces (0.0.0.0). Consider using 127.0.0.1 (--binding option)
+2015-02-03T19:02:17.818344+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2015-02-03T19:02:18.089526+00:00 app[web.1]: Processing by ListingsController#index as HTML
+2015-02-03T19:02:18.548817+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=a0462012-bb44-434c-802e-977f9730c317 fwd="128.107.239.236" dyno=web.1 connect=3ms service=897ms status=500 bytes=1754
+2015-02-03T19:02:18.695504+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (585.1ms)
+2015-02-03T19:02:18.697249+00:00 app[web.1]: ActionView::Template::Error (undefined method `name' for nil:NilClass):
+2015-02-03T19:02:18.697247+00:00 app[web.1]: 
+2015-02-03T19:02:18.697250+00:00 app[web.1]:      9:           <div class="caption">
+2015-02-03T19:02:18.697261+00:00 app[web.1]:   app/views/listings/index.html.erb:12:in `block in _app_views_listings_index_html_erb___2060684162281429076_69983715445800'
+2015-02-03T19:02:18.697256+00:00 app[web.1]:     13:             <%= link_to 'Show', listing, class: "btn btn-link" %>
+2015-02-03T19:02:18.697252+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
+2015-02-03T19:02:18.697254+00:00 app[web.1]:     11:             <p> <%= number_to_currency(listing.price) %></p>
+2015-02-03T19:02:18.697265+00:00 app[web.1]: 
+2015-02-03T19:02:18.697255+00:00 app[web.1]:     12:              <p> <%= "Sold by #{listing.user.name}" %></p>
+2015-02-03T19:02:18.695638+00:00 app[web.1]: Completed 500 Internal Server Error in 606ms
+2015
+-02-03T19:02:18.697260+00:00 app[web.1]:     15:             <%= link_to 'Destroy', listing, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-link" %>
+2015-02-03T19:02:18.697262+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb___2060684162281429076_69983715445800'
+2015-02-03T19:02:18.697263+00:00 app[web.1]: 
+2015-02-03T19:02:18.697258+00:00 app[web.1]:     14:             <%= link_to 'Edit', edit_listing_path(listing), class: "btn btn-link" %>
+2015-02-03T19:02:18.771517+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=a4e06918-0b11-4ca5-8564-5f49930468b3 fwd="128.107.239.236" dyno=web.1 connect=7ms service=6ms status=200 bytes=228
+2015-02-03T19:02:16.284733+00:00 heroku[web.1]: State changed from starting to up
+2015-02-03T19:07:03.595046+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by pkalapat@gmail.com
+2015-02-03T19:07:08.292848+00:00 heroku[run.8906]: Awaiting client
+2015-02-03T19:07:08.334716+00:00 heroku[run.8906]: Starting process with command `bundle exec rake db:migrate`
+2015-02-03T19:07:08.502817+00:00 heroku[run.8906]: State changed from starting to up
+2015-02-03T19:07:13.170911+00:00 heroku[run.8906]: Process exited with status 0
+2015-02-03T19:07:13.089364+00:00 heroku[run.8906]: State changed from up to complete
+2015-02-03T19:07:21.467917+00:00 app[web.1]: Processing by ListingsController#index as HTML
+2015-02-03T19:07:21.465982+00:00 app[web.1]: Started GET "/" for 128.107.239.235 at 2015-02-03 19:07:21 +0000
+2015-02-03T19:07:22.165386+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=613d5bce-a85f-4b19-a4c1-c88c4577d158 fwd="128.107.239.235" dyno=web.1 connect=10ms service=890ms status=500 bytes=1754
+2015-02-03T19:07:22.349542+00:00 app[web.1]: Completed 500 Internal Server Error in 882ms
+2015-02-03T19:07:22.351047+00:00 app[web.1]:     11:             <p> <%= number_to_currency(listing.price) %></p>
+2015-02-03T19:07:22.351042+00:00 app[web.1]: ActionView::Template::Error (undefined method `name' for nil:NilClass):
+2015-02-03T19:07:22.351045+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
+2015-02-03T19:07:22.351048+00:00 app[web.1]:     12:              <p> <%= "Sold by #{listing.user.name}" %></p>
+2015-02-03T19:07:22.351049+00:00 app[web.1]:     13:             <%= link_to 'Show', listing, class: "btn btn-link" %>
+2015-02-03T19:07:22.351040+00:00 app[web.1]: 
+2015-02-03T19:07:22.351044+00:00 app[web.1]:      9:           <div class="caption">
+2015-02-03T19:07:22.351051+00:00 app[web.1]:     14:             <%= link_to 'Edit', edit_listing_path(listing), class: "btn btn-link" %>
+2015-02-03T19:07:22.351054+00:00 app[web.1]:   app/views/listings/index.html.erb:12:in `block in _app_views_listings_index_html_erb___2060684162281429076_69983715445800'
+2015-02-03T19:07:22.351053+00:00 app[web.1]:     15:             <%= link_to 'Destroy', listing, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-link" %>
+2015-02-03T19:07:22.351058+00:00 app[web.1]: 
+2015-02-03T19:07:22.349449+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (880.6ms)
+2015-02-03T19:07:22.351057+00:00 app[web.1]: 
+2015-02-03T19:07:22.351056+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb___2060684162281429076_69983715445800'
+2015-02-03T19:07:22.391897+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=16c5cd4f-91e7-476b-8b95-f349562358e6 fwd="128.107.239.235" dyno=web.1 connect=2ms service=5ms status=304 bytes=133
+2015-02-03T20:08:49.724087+00:00 heroku[web.1]: Idling
+2015-02-03T20:08:49.725222+00:00 heroku[web.1]: State changed from up to down
+2015-02-03T20:08:51.081223+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-02-03T20:08:51.369011+00:00 app[web.1]: 	/app/vendor/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:170:in `select'
+2015-02-03T20:08:51.369005+00:00 app[web.1]: [2015-02-03 20:08:51] FATAL SignalException: SIGTERM
+2015-02-03T20:08:51.369020+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/server.rb:69:in `start'
+2015-02-03T20:08:51.369024+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `server'
+2015-02-03T20:08:51.369028+00:00 app[web.1]: 	bin/rails:8:in `require'
+2015-02-03T20:08:51.369016+00:00 app[web.1]: 	/app/vendor/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:160:in `start'
+2015-02-03T20:08:51.369023+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/rai
+lties-4.1.6/lib/rails/commands/commands_tasks.rb:76:in `tap'
+2015-02-03T20:08:51.369029+00:00 app[web.1]: 	bin/rails:8:in `<main>'
+2015-02-03T20:08:51.369017+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:14:in `run'
+2015-02-03T20:08:51.369025+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+2015-02-03T20:08:51.369036+00:00 app[web.1]: [2015-02-03 20:08:51] INFO  going to shutdown ...
+2015-02-03T20:08:51.369027+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands.rb:17:in `<top (required)>'
+2015-02-03T20:08:51.369061+00:00 app[web.1]: Exiting
+2015-02-03T20:08:51.369039+00:00 app[web.1]: [2015-02-03 20:08:51] INFO  WEBrick::HTTPServer#start done.
+2015-02-03T20:08:51.369022+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/railties-4.1.6/lib/rails/commands/commands_tasks.rb:81:in `block in server'
+2015-02-03T20:08:51.369014+00:00 app[web.1]: 	/app/vendor/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:32:in `start'
+2015-02-03T20:08:51.369019+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.1.0/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2015-02-03T20:08:51.369013+00:00 app[web.1]: 	/app/vendor/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:170:in `block in start'
+2015-02-03T20:08:52.175311+00:00 heroku[web.1]: Process exited with status 143
+2015-02-04T05:41:45.764702+00:00 heroku[web.1]: Unidling
+2015-02-04T05:41:45.764702+00:00 heroku[web.1]: State changed from down to starting
+2015-02-04T05:41:49.501794+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 38761 -e production`
+2015-02-04T05:41:56.452971+00:00 app[web.1]: [2015-02-04 05:41:56] INFO  WEBrick 1.3.1
+2015-02-04T05:41:56.452994+00:00 app[web.1]: [2015-02-04 05:41:56] INFO  ruby 2.1.3 (2014-09-19) [x86_64-linux]
+2015-02-04T05:41:56.453515+00:00 app[web.1]: [2015-02-04 05:41:56] INFO  WEBrick::HTTPServer#start: pid=3 port=38761
+2015-02-04T05:41:56.822026+00:00 heroku[web.1]: State changed from starting to up
+2015-02-04T05:41:57.894589+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=d79c478b-6187-4c07-a28e-a2d0060da9a0 fwd="66.249.84.207" dyno=web.1 connect=1ms service=16ms status=200 bytes=228
+2015-02-04T05:49:19.131545+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=6f74cca3-b59b-41d4-a4a4-0a384e3fa4b7 fwd="66.249.84.228" dyno=web.1 connect=1ms service=27ms status=200 bytes=228
+2015-02-04T06:34:52.756042+00:00 app[web.1]: => Booting WEBrick
+2015-02-04T06:34:52.756048+00:00 app[web.1]: => Rails 4.1.6 application starting in production on http://0.0.0.0:38761
+2015-02-04T06:34:52.756053+00:00 app[web.1]: => Ctrl-C to shutdown server
+2015-02-04T06:34:52.756055+00:00 app[web.1]: Started GET "/" for 128.107.239.233 at 2015-02-04 06:34:52 +0000
+2015-02-04T06:34:52.756052+00:00 app[web.1]: => Notice: server is listening on all interfaces (0.0.0.0). Consider using 127.0.0.1 (--binding option)
+2015-02-04T06:34:52.756050+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2015-02-04T06:34:53.018919+00:00 app[web.1]: Processing by ListingsController#index as HTML
+2015-02-04T06:34:53.815982+00:00 heroku[router]: at=info method=GET path="/" host=gengappdemo-2014.herokuapp.com request_id=5657ae56-e7e4-48f0-8035-366f8fad190f fwd="128.107.239.233" dyno=web.1 connect=0ms service=1095ms status=500 bytes=1754
+2015-02-04T06:34:53.794294+00:00 app[web.1]:   Rendered listings/index.html.erb within layouts/application (745.6ms)
+2015-02-04T06:34:53.804713+00:00 app[web.1]: 
+2015-02-04T06:34:53.804717+00:00 app[web.1]: ActionView::Template::Error (undefined method `name' for nil:NilClass):
+2015-02-04T06:34:53.794483+00:00 app[web.1]: Completed 500 Internal Server Error in 775ms
+2015-02-04T06:34:53.804719+00:00 app[web.1]:      9:           <div class="caption">
+2015-02-04T06:34:53.804720+00:00 app[web.1]:     10:             <h3><%= listing.name %></h3>
+2015-02-04T06:34:53.804722+00:00 app[web.1]:     11:             <p> <%= number_to_currency(listing.price) %></p>
+2015-02-04T06:34:53.804724+00:00 app[web.1]:     12:              <p> <%= "Sold by #{listing.user.name}" %></p>
+2015-02-04T06:34:53.804725+00:00 app[web.1]:     13:             <%= link_to 'Show', listing, class: "btn btn-link" %>
+2015-02-04T06:34:53.804727+00:00 app[web.1]:     14:             <%= link_to 'Edit', edit_listing_path(listing), class: "btn btn-link" %>
+2015-02-04T06:34:53.804729+00:00 app[web.1]:     15:             <%= link_to 'Destroy', listing, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-link" %>
+2015-02-04T06:34:53.804731+00:00 app[web.1]:   app/views/listings/index.html.erb:12:in `block in _app_views_listings_index_html_erb__2022470375334015292_69897342720780'
+2015-02-04T06:34:53.804734+00:00 app[web.1]: 
+2015-02-04T06:34:53.804732+00:00 app[web.1]:   app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb__2022470375334015292_69897342720780'
+2015-02-04T06:34:53.804735+00:00 app[web.1]: 
+2015-02-04T06:34:54.482100+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gengappdemo-2014.herokuapp.com request_id=5e95a7b1-2a14-4dcf-a30c-348775a2653d fwd="128.107.239.233" dyno=web.1 connect=1ms service=5ms status=304 bytes=133
