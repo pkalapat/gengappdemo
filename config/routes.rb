@@ -3,9 +3,10 @@ Rails.application.routes.draw do
   devise_for :models
   resources :listings
 
-  get 'pages/about'
+  get "pages/about"
 
-  get 'pages/contact'
+  get "pages/contact"
+  get 'seller' => "listings#seller"
 
   root 'listings#index'
   # The priority is based upon order of creation: first created -> highest priority.
