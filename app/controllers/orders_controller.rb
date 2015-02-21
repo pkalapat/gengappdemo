@@ -1,29 +1,23 @@
 class OrdersController < ApplicationController
-  respond_to :html, :xml, :json
   before_action :set_order, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!
 
-  
-
   def sales
-    @order = Order.all.where(seller: current_user).order("created_at DESC")
+    @orders = Order.all.where(seller: current_user).order("created_at DESC")
   end
 
   def purchases
-    @order = Order.all.where(buyer: current_user).order("created_at DESC")
+    @orders = Order.all.where(buyer: current_user).order("created_at DESC")
   end
 
-
+  # GET /orders/new
   def new
     @order = Order.new
     @listing = Listing.find(params[:listing_id])
-    respond_with(@order)
   end
 
- 
-
-  #POST /orders
-  #POST /orders.json
+  # POST /orders
+  # POST /orders.json
   def create
     @order = Order.new(order_params)
     @listing = Listing.find(params[:listing_id])
@@ -32,9 +26,29 @@ class OrdersController < ApplicationController
     @order.lisiting_id = @listing.id
     @order.buyer_id = current_user.id
     @order.seller_id = @seller.id
-  
 
-     respond_to do |format|
+    Stripe.api_key = "sk_test_L2jll3qsNokHAOm3ToOTu2DJ"
+    token = params[:stripeToken]
+
+    
+    begin
+      charge = Stripe::Charge.create(
+        :amount => (@listing.price * 100).floor,
+        :currency => "usd",
+        :card => token
+        )
+    rescue Stripe::CardError => e
+      flash[:danger] = e.message
+    end
+
+
+    transfer = Stripe::Transfer.create(
+      :amount => (@listing.price * 95).floor,
+      :currency => "usd",
+      :recipients => @seller.recipient
+      )
+
+    respond_to do |format|
       if @order.save
         format.html { redirect_to root_url, notice: "Thanks for ordering!" }
         format.json { render action: 'show', status: :created, location: @order }
@@ -44,13 +58,14 @@ class OrdersController < ApplicationController
       end
     end
   end
-  
 
   private
+    # Use callbacks to share common setup or constraints between actions.
     def set_order
       @order = Order.find(params[:id])
     end
 
+    # Never trust parameters from the scary internet, only allow the white list through.
     def order_params
       params.require(:order).permit(:address, :city, :state)
     end
