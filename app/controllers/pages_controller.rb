@@ -4,4 +4,17 @@ class PagesController < ApplicationController
 
   def contact
   end
+
+  def stories
+  end
+ 
+  def cultural
+  end
+
+  def marketplace
+  end
+
+  def recepies
+  end
+
 end
